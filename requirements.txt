@@ -1,0 +1,25 @@
+# Core data analysis
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1          # reading Excel downloads from BPS
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+
+# Statistics
+scipy>=1.11
+statsmodels>=0.14
+
+# Data collection / parsing
+requests>=2.31
+lxml>=5.0              # pandas.read_html
+html5lib>=1.1          # pandas.read_html fallback
+beautifulsoup4>=4.12   # HTML parsing
+pdfplumber>=0.11       # extracting tables from KLHK PDF
+pypdf>=4.2             # fast text search in KLHK PDF
+
+# Notebook
+jupyter>=1.0
+ipykernel>=6.29
